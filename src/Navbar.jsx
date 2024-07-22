@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navbar(props) {
   return (
-    <div class="flex absolute left-52 top-6">
-      <img src={props.photo} class="w-36" />
+    <div class="p-4 md:px-12">
+      <img src={props.photo} class="w-24 md:w-36" />
     </div>
   );
 }

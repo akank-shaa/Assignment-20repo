@@ -6,11 +6,11 @@ import Footer from './Footer';
 function App() {
     return (
         <div class="bg-zinc-100 flex flex-col gap-14">
-            <div class="bg-white h-24">
+            <div class="bg-white h-full w-full">
                 <Navbar photo="src/Amazon.png" />
             </div>
             <div class="w-[1100px] mx-auto">
-                <div class="bg-white grid grid-cols-3 px-20 py-32">
+                <div class="bg-white grid grid-cols-1 md:grid-cols-3 px-20 py-32">
                     <Product photo="https://taskroom.in/wp-content/uploads/2018/06/mug-white.jpg" title="Black Printed Coffee Mug" category="Mugs" rating="src/download.png" price="$15.00" />
                     <Product photo="https://taskroom.in/wp-content/uploads/2018/06/mug-coffee.jpg" title="Father's Day Coffee Mug" category="Mugs" rating="src/download.png" price="$19.00" />
                     <Product photo="http://bestieindia.com/wp-content/uploads/2021/03/tshirt1.jpg" title="Green Printed T-Shirt" category="Tshirts" rating="src/download.png" price="$34.00" />
